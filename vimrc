@@ -1,3 +1,4 @@
+" Vundle Setting
 set nocompatible		" be iMproved, required
 filetype off			" required
 
@@ -21,9 +22,9 @@ call vundle#end()            	" required
 filetype plugin indent on	" required
 
 " Powerline Setting
-set laststatus=2 " Always display the statusline in all windows
-set showtabline=2 " Always display the tabline, even if there is only one tab
-set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set laststatus=2		" Always display the statusline in all windows
+set showtabline=2		" Always display the tabline, even if there is only one tab
+set noshowmode			" Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set encoding=utf-8
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
