@@ -9,13 +9,16 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'gmarik/Vundle.vim'
-" vim-snipmate
+" Powerline
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Vim-snipmate
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+" Colorscheme solarized
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            	" required
@@ -36,3 +39,8 @@ set ruler			" 第幾行第幾個字
 set number			" 顯示行號
 set cursorline			" 顯示目前的游標位置
 set hlsearch			" 設定高亮度顯示搜尋結果
+
+" Colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
