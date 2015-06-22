@@ -15,7 +15,7 @@
 4. Waiting for Downloading Your Plugin & Enjoy Vim
 
 # Plugin List
-1. [Vundel](http://github.com/gmarik/vundle) - the plugin manager for Vim. 
+1. [Vundle](http://github.com/gmarik/vundle) - the plugin manager for Vim. 
 2. [Powerline](https://github.com/powerline/powerline) - Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications. 
 3. [Vim-snipmate](https://github.com/garbas/vim-snipmate) - SnipMate aims to provide support for textual snippets, similar to TextMate or other Vim plugins like UltiSnips. 
 4. [Vim-snippets](https://github.com/honza/vim-snippets) - vim-snipmate default snippets. 
