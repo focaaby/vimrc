@@ -1,7 +1,7 @@
 # How to install focaaby's vimrc
 1. Installation: `git clone https://github.com/focaaby/vimrc.git ~/.vim `
 2. Create symlinks: `ln -s ~/.vim/vimrc ~/.vimrc`
-3.Install Vundle  
+3. Install Vundle  
   `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 4. Run Install Plugins: 
 
