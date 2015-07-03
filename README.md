@@ -1,7 +1,9 @@
 # How to install focaaby's vimrc
 1. Installation: `git clone https://github.com/focaaby/vimrc.git ~/.vim `
 2. Create symlinks: `ln -s ~/.vim/vimrc ~/.vimrc`
-3. Run Install Plugins: 
+3. Install Vundle  
+  `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+4. Run Install Plugins: 
 
   ### Bash shell
   Launch `vim` and run `:PluginInstall` 
@@ -12,7 +14,8 @@
 
   [Reference](https://github.com/gmarik/Vundle.vim/wiki#faq4)
 
-4. Waiting for Downloading Your Plugin & Enjoy Vim
+5. Waiting for Downloading Your Plugin & Enjoy Vim
+test
 
 # Plugin List
 1. [Vundle](http://github.com/gmarik/vundle) - the plugin manager for Vim. 
