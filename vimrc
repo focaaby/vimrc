@@ -19,6 +19,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 " Colorscheme solarized
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'c9s/colorselector.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            	" required
@@ -42,5 +43,5 @@ set hlsearch			" 設定高亮度顯示搜尋結果
 
 " Colorscheme
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
