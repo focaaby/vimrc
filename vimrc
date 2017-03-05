@@ -13,10 +13,10 @@ Plugin 'gmarik/Vundle.vim'
 " Powerline
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Vim-snipmate
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+"Plugin 'MarcWeber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
+"Plugin 'honza/vim-snippets'
 " Colorscheme solarized
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'c9s/colorselector.vim'
@@ -31,7 +31,7 @@ set showtabline=2		" Always display the tabline, even if there is only one tab
 set noshowmode			" Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set encoding=utf-8
 set t_Co=256
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols='fancy'
 
 
 " Personal Setting
