@@ -39,6 +39,7 @@ syntax on			" 語法上色顯示
 set ruler			" 第幾行第幾個字
 set number			" 顯示行號
 set cursorline			" 顯示目前的游標位置
+highlight CursorLine cterm=none ctermbg=Black ctermfg=NONE
 set hlsearch			" 設定高亮度顯示搜尋結果
 
 " Colorscheme
