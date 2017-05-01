@@ -20,6 +20,8 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Colorscheme solarized
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'c9s/colorselector.vim'
+Plugin 'editorconfig/editorconfig-vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            	" required
